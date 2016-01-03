@@ -1,0 +1,144 @@
+.landing {
+  align-items: center;
+  background: url('/assets/bw/motor.jpg') no-repeat center center, #222;
+  background-size: cover;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  padding: 2rem 0;
+
+  .landing__wrapper {
+    margin: 1rem 5% 0 5%;
+    max-width: 20rem;
+    width: 90%;
+  }
+
+  header {
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+  }
+
+  h1 {
+   font-size: 3.76rem;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: $h4-size;
+    font-variant: small-caps;
+    margin-top: -1rem;
+  }
+
+  @media screen and (min-width: $mobile) {
+    h1 {
+      font-size: 7.76rem;
+      line-height: 9rem;
+    }
+    h2 {
+      font-size: $h3-size;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    header {
+      padding: .5em;
+    }
+
+    nav {
+      display: block;
+    }
+  }
+
+}
+
+.landing__nav {
+  display: none;
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      background: $brand-green;
+      margin: 2em auto;
+      text-align: center;
+      transition: all $transition-time;
+
+      &:hover {
+        background: darken($brand-green, 5%);
+      }
+    }
+
+    a {
+      color: white;
+      font-family: $display-font-family;
+      font-size: $h3-size;
+      font-variant: small-caps;
+      text-decoration: none;
+
+      &:visited {
+        color: white;
+      }
+    }
+  }
+}
+
+.companyDescription {
+  background: rgba(0, 0, 0, .8);
+  margin: 0 5%;
+  max-width: 32em;
+  padding: 1rem 5%;
+
+  h2 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.button--link {
+  @include card(4);
+  background: $brand-green;
+  border: 0;
+  display: block;
+  outline: none;
+  margin: 1rem auto;
+  padding: 1rem;
+  transition: all $transition-time linear;
+  z-index: 400;
+
+  a {
+    color: #eee;
+    font-family: $display-font-family;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($brand-green, 10%);
+  }
+
+  &:hover {
+    @include card(5);
+  }
+
+  @media screen and (min-width: $mobile) {
+    margin: 2rem auto;
+    margin-bottom: 1rem;
+
+    a {
+      font-size: 3em;
+    }
+  }
+}

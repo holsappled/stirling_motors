@@ -1,0 +1,53 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// libraries
+@import "libraries/bourbon/bourbon";
+@import "libraries/neat/neat";
+
+// Our variables
+@import url(https://fonts.googleapis.com/css?family=Quantico:400,700);
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$display-font-family: Quantico, Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$display-font-weight: bold;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$h1-size:          5.063rem;
+$h2-size:          3.375rem;
+$h3-size:          2.25rem;
+$h4-size:          1.5rem;
+$small-font:       .667rem;
+
+$spacing-unit:     30px;
+
+$brand-green: #27ae60;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      $brand-green;
+
+// break points
+$mobile: 667px;
+$tablet: 1024px; 
+
+// times
+$transition-time: 250ms;
+$header-transition: $transition-time;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "nav",
+        "landing",
+        "technology",
+        "syntax-highlighting"
+;

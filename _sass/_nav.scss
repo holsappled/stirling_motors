@@ -1,0 +1,73 @@
+.nav--main {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+
+  svg {
+    fill: rgba(255, 255, 255, .9);
+    float: right;
+    margin: 1rem 5%;
+    width: 2rem;
+
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
+  }
+}
+
+.nav__drawer {
+  @include card(-1);
+  background: #333;
+  height: 100vh;
+  left: 100%;
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  transition: all $transition-time ease-in-out;
+  width: 50%;
+  z-index: 500;
+
+  ul {
+    list-style-type: none;
+    margin: 4rem 0;
+  }
+
+  li {
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: right;
+
+    &:not(:first-child) {
+      margin-bottom: 1.4rem;
+    }
+  }
+
+  svg {
+    float: right;
+    margin: 1rem;
+    stroke: white;
+    width: 1.8rem;
+
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
+  }
+}
+
+.nav__drawer--open {
+  @include card(4);
+  left: 50%;
+}
+
+.nav__link--brand {
+  color: white;
+  font-family: $display-font-family;
+  font-size: 2rem;
+  text-decoration: none;
+
+  &:visited {
+    color: white;
+  }
+}

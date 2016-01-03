@@ -1,0 +1,64 @@
+<svg class="engineDiagram" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#b2b2b2" id="svg_51" height="85.08772" width="12.28071" y="120.43859" x="474.03508" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#b2b2b2"/>
+  <rect stroke="#b2b2b2" id="svg_2" height="176" width="375" y="209.92982" x="108.07017" stroke-width="5" fill="#b2b2b2"/>
+  <line stroke="#000000" id="crankshaft_left" y2="91.5614" x2="439.15789" y1="91.5614" x1="100.54386" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line class="crank_arm" stroke="#000000" id="crank_arm_left" y2="136.92982" x2="436.64913" y1="89.43859" x1="436.64913" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line class="crank_arm" stroke="#000000" id="crank_arm_right" y2="138.80702" x2="460.47369" y1="88.43859" x1="460.47369" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line stroke="#000000" id="svg_27" y2="391.05262" x2="103.36845" y1="206.84209" x1="103.49125" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line stroke="#000000" id="svg_28" y2="390.05262" x2="101.61404" y1="390.05262" x1="483.31583" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line id="svg_29" y2="392.80701" x2="486.31583" y1="205.0877" x1="486.31583" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <line stroke="#000000" id="svg_33" y2="205.0877" x2="404.73689" y1="205.0877" x1="100.35088" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <rect id="svg_53" stroke="#b2b2b2" height="85.08772" width="12.28071" y="119.99999" x="408.24561" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#b2b2b2"/>
+  <line stroke="#000000" id="svg_56" y2="113.85963" x2="420.52636" y1="207.71928" x1="420.52636" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line stroke="#000000" id="svg_57" y2="117.3684" x2="474.03511" y1="205.96489" x1="474.03512" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line id="svg_58" y2="112.98244" x2="486.31583" y1="209.47367" x1="486.31583" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <line stroke="#000000" id="svg_59" y2="115.61401" x2="488.07021" y1="115.61401" x1="471.40355" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line stroke="#000000" id="svg_60" y2="114.73682" x2="423.15793" y1="114.73682" x1="404.73688" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line stroke="#000000" id="svg_61" y2="112.10524" x2="407.36846" y1="207.71928" x1="407.36846" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line class="crank_middle" stroke="#000000" id="crank_arm_middle" y2="136.66665" x2="462.63161" y1="136.66665" x1="434.56144" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line id="svg_63" y2="134.91226" x2="448.59653" y1="178.77192" x1="448.59653" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <rect stroke="#000000" id="hot_air" height="81.57895" width="364.03509" y="299.82455" x="112.6316" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff5656"/>
+  <rect stroke="#000000" id="cool-air" height="83.33334" width="364.03509" y="216.49121" x="112.63161" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#56aaff"/>
+  <rect id="svg_66" height="11.40351" width="3.50877" y="256.84209" x="439.8246" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#56aaff"/>
+  <rect id="displacer_piston" height="64" width="347" y="265.40352" x="120.80701" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#e5e5e5"/>
+  <line stroke="#000000" id="svg_24" y2="90.68423" x2="300.31579" y1="263.28069" x1="301.31579" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <rect stroke="#000000" id="piston_air" height="20.17544" width="48.24562" y="219.12278" x="423.15793" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#56aaff"/>
+  <rect stroke="#000000" id="power_piston" height="24.5614" width="53.50877" y="180.52629" x="420.52635" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#00ff7f"/>
+  <g id="wheel">
+   <title>wheel</title>
+   <path fill="#7f7f7f" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m533.61401,20.17544c64.99976,-7.99996 55.66681,153.33321 2.66656,140.66656" id="svg_41"/>
+   <ellipse stroke="#000000" ry="70" rx="29" id="svg_6" cy="90.17544" cx="531.61404" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#bfbfbf"/>
+  </g>
+  <line id="crankshaft_right" y2="91.4386" x2="458.96491" y1="91.4386" x1="532.59649" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none" stroke="#000000"/>
+  <g id="water">
+   <title transform="translate(-2,2) ">water</title>
+   <rect fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="103" y="122" width="99" height="27" id="svg_14" stroke="#000000"/>
+   <ellipse fill="#007fff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="199.5" cy="135.5" id="svg_15" rx="10.5" ry="13.5" stroke="#000000"/>
+   <path d="m225.20605,145.73453c-13.26645,0.53004 -1.4355,-19.83006 -1.51631,-19.08221c-0.08081,0.74785 11.13969,18.76994 0.07281,19.2589" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" transform="rotate(-45 223.77702331542966,136.1884460449219) " stroke="#007fff" id="svg_46"/>
+   <path d="m243.89502,169.93213c-13.26648,0.53006 -1.43549,-19.83006 -1.51633,-19.0822c-0.08081,0.74785 11.13968,18.76993 0.07285,19.2589" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" transform="rotate(-35 242.46597290039065,160.38606262207034) " stroke="#007fff" id="svg_40"/>
+   <path d="m260.17905,153.79607c-13.26645,0.53006 -1.43546,-19.83006 -1.51633,-19.0822c-0.08081,0.74785 11.13968,18.76993 0.07285,19.2589" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" id="svg_39" transform="rotate(-55 258.75,144.25) " stroke="#007fff"/>
+   <path d="m280.70444,180.63756c-13.26651,0.53004 -1.43552,-19.83006 -1.51633,-19.0822c-0.08081,0.74783 11.13965,18.76993 0.07281,19.25888" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" transform="rotate(-25 279.275390625,171.09147644042966) " stroke="#007fff" id="svg_42"/>
+   <path d="m231.70447,193.63754c-13.26654,0.53004 -1.43555,-19.83006 -1.51633,-19.0822c-0.08084,0.74783 11.13962,18.76993 0.07278,19.25888" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" transform="rotate(-10 230.27537536621074,184.09147644042957) " stroke="#007fff" id="svg_43"/>
+   <path d="m260.70444,194.63756c-13.26651,0.53004 -1.43552,-19.83006 -1.51633,-19.0822c-0.08081,0.74783 11.13965,18.76993 0.07281,19.25888" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" transform="rotate(-25 259.275390625,185.09149169921875) " stroke="#007fff" id="svg_44"/>
+   <path d="m219.89499,166.93213c-13.26645,0.53004 -1.43549,-19.83008 -1.5163,-19.08221c-0.08081,0.74785 11.13968,18.76993 0.07281,19.25891" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" transform="rotate(-30 218.46595764160156,157.38604736328125) " stroke="#007fff" id="svg_47"/>
+  </g>
+  <g class="flame" id="flame3">
+   <title transform="translate(-2,0) translate(-1,2) ">flame</title>
+   <path id="svg_11" stroke="#f90000" d="m403.07565,454.55536c-34.90503,1.41748 -3.77679,-53.03149 -3.98947,-51.03149c-0.21265,2 29.3093,50.19635 0.19156,51.50403" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff0000"/>
+   <path id="svg_12" stroke="#ff7f00" d="m402.30002,448.56195c-24.00308,0.94604 -2.5972,-35.39325 -2.74347,-34.05844c-0.14621,1.33475 20.15509,33.50107 0.13177,34.37381" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffff00"/>
+  </g>
+  <g class="flame" id="flame2">
+   <title transform="translate(0,-1.754386067390442) translate(-20,189) translate(-81.28305053710938,-187.24835205078125) " id="svg_25">flame</title>
+   <path id="svg_26" stroke="#f90000" d="m304.7926,452.55261c-34.90503,1.41748 -3.77679,-53.03149 -3.98947,-51.03149c-0.21265,2 29.3093,50.19635 0.19156,51.50403" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff0000"/>
+   <path id="svg_30" stroke="#ff7f00" d="m304.01697,446.5592c-24.00308,0.94604 -2.5972,-35.39325 -2.74347,-34.05844c-0.14621,1.33475 20.15509,33.50107 0.13177,34.37381" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffff00"/>
+  </g>
+  <g class="flame" id="flame1">
+   <title id="svg_32" transform="translate(-120,189) translate(-80.28305053710938,-189.24835205078125) translate(-1,2) ">flame</title>
+   <path id="svg_34" stroke="#f90000" d="m204.7926,454.30701c-34.90503,1.41748 -3.77679,-53.03149 -3.98947,-51.03149c-0.21265,2 29.3093,50.19635 0.19156,51.50403" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff0000"/>
+   <path id="svg_35" stroke="#ff7f00" d="m204.01697,448.3136c-24.00308,0.94604 -2.5972,-35.39325 -2.74347,-34.05844c-0.14621,1.33475 20.15509,33.50107 0.13177,34.37381" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffff00"/>
+  </g>
+ </g>
+</svg>
