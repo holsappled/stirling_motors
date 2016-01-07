@@ -1,38 +1,62 @@
-function closest(element, selector) {
-  /* used in lieu of Element.closest for IE9+ and Android 4.1+ support */
+$(function() {
 
-  var matches = element.matches || element.msMatchesSelector || element.webkitMatchesSelector;
-  
-  while(element) {
-    if (matches.call(element, selector)) {
-      return element;  
-    } else {
-      element = element.parentElement;
-    }
-  }
-}
-
-var navDrawer = (function() {
-  /* opens and closes navigation drawer */
-  var navRoot = document.querySelector('.nav--main'); 
-  var drawer = document.getElementById('nav-drawer');
-
-  var clickToggleHandler = function(evt) {
-    console.log('click');
-    if (closest(evt.target, '.nav__icon--toggle')) {
-      drawer.classList.toggle('nav__drawer--open');
-    }
+  function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      var later = function() {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      var callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
   };
 
-  var init = function() {
-    console.log('initing');
-    navRoot.addEventListener('click', clickToggleHandler);
-  };
+  var navDrawer = (function() {
+    /* opens and closes navigation drawer */
+    var drawer = $('#nav-drawer');
+    var navIcon = $('.nav__icon--toggle'); 
 
-  return { init: init };
+    var init = function() {
+      navIcon.on('click', function(evt) {
+        if ($(this).closest('.nav__icon--toggle')) {
+          drawer.toggleClass('nav__drawer--open');
+        }
+      });
+    };
 
-})();
+    return { init: init };
 
-console.log('run');
+  })();
 
-navDrawer.init();
+  var scrollEffects = (function() {
+
+    var navContainer = $('.nav__container');
+    var targetElement = $('#technology');
+
+    var scrollHandler = function(evt) {
+      var current = $(this).scrollTop();
+      var breakPoint = targetElement.position().top;
+
+      if (current > breakPoint) {
+        navContainer.addClass('nav__container--scrolled');
+      } else {
+        navContainer.removeClass('nav__container--scrolled');
+      }
+    };
+
+    var init = function() {
+      $(document).scroll(debounce(scrollHandler, 250));
+    };
+
+    return { init: init };
+
+  })();
+
+
+  navDrawer.init();
+  scrollEffects.init();
+});

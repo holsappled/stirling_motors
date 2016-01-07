@@ -1,5 +1,4 @@
 .technology {
-  padding: 0 5%;
 
   h2, h3 {
     text-align: center;
@@ -8,5 +7,201 @@
   img {
     margin-top: 1rem;
     width: 100%;
+  }
+}
+
+$engine-time: 1s;
+
+#cold_air {
+  height: 83px;
+  animation: cold_air $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+.crank_arm {
+  animation: crank_arm $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+.crank_middle {
+  animation: crank_middle $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+.displacer_crank_arm {
+  animation: displacer_crank_arm $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+#displacer_crank_middle {
+  animation: displacer_crank_middle $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+#displacer_piston {
+  animation: displacer_piston $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+#displacer_piston_shaft {
+  animation: displacer_crank_middle $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+#power_piston_air {
+  animation: power_piston_air $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+#power_piston {
+  animation: power_piston $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+#power_piston_shaft {
+  animation: power_piston_shaft $engine-time infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cold_air {
+  0% {
+    height: 80px;
+  }
+  25% {
+    height: 50px;
+  }
+  50% {
+    height: 80px;
+  }
+  75% {
+    height: 120px;
+  }
+  100% {
+    height: 80px;
+  }
+}
+
+@keyframes crank_arm {
+  0% {
+    height: 40px;
+  }
+  25% {
+    height: 0;
+    transform: translateY(0px);
+  }
+  50% {
+    height: 40px;
+    transform: translateY(-40px);
+  }
+  75% {
+    height: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    height: 40px;
+  }
+}
+
+@keyframes crank_middle {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-80px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes displacer_crank_arm {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 40px;
+    transform: translateY(-40px);
+  }
+  50% {
+    height: 0;
+    transform: translateY(0px);
+  }
+  75% {
+    height: 40px;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+@keyframes displacer_crank_middle {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes displacer_piston {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes power_piston_air {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes power_piston {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes power_piston_shaft {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-80px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
