@@ -131,6 +131,7 @@
 
   &:hover {
     @include card(5);
+    background: darken($brand-green, 5%);
   }
 
   @media screen and (min-width: $mobile) {

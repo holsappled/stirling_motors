@@ -1,15 +1,125 @@
-.technology {
+.technology__wrapper--animation {
+  @include clearfix();
+  background: $white;
+  padding: 10rem 5%;
+}
 
-  h2, h3 {
+.technology__description--animation {
+  width: 100%;
+
+  h2 {
     text-align: center;
   }
 
-  img {
-    margin-top: 1rem;
-    width: 100%;
+  @media screen and (min-width: $mobile) and (max-width: $tablet) {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  @media screen and (min-width: $tablet) {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+
+    h2 {
+      text-align: left;
+    }
   }
 }
 
+.technology__container--animation {
+  width: 100%;
+
+  svg {
+    width: 100%;
+  }
+
+  @media screen and (min-width: $mobile) and (max-width: $tablet) {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 75%;
+  }
+
+  @media screen and (min-width: $tablet) {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+
+    svg {
+      margin-top: -2rem;
+    }
+  }
+}
+
+.technology__wrapper--details {
+  @include clearfix();
+  width: 100%;
+}
+
+.technology__card {
+  color: $white;
+  padding: 2.5rem;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+  width: 100%;
+
+  &::before {
+    background: rgba(0, 0, 0, .6);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all $transition-time * 1.5;
+    width: 100%;
+    z-index: 100;
+  }
+
+  &:hover {
+    &::before {
+      background: rgba(0, 0, 0, .4);
+    }
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  h3, ul, li {
+    position: relative;
+    z-index: 300;
+  }
+
+  &:nth-child(1) {
+    background: url('/assets/color/paper.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  &:nth-child(2) {
+    background: url('/assets/color/board.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  &:nth-child(3) {
+    background: url('/assets/color/electronics.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  @media screen and (min-width: $mobile) and (max-width: $tablet) {
+    ul {
+      margin: 0 auto;
+      width: 20em;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    float: left;
+    margin: 0 auto;
+    min-height: 24rem;
+    width: 33.33%;
+  }
+}
+
+// SVG Animation
 $engine-time: 1s;
 
 #cold_air {

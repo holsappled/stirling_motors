@@ -33,6 +33,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      $brand-green;
+$white: #eee;
 
 // break points
 $mobile: 667px;
@@ -48,6 +49,9 @@ $header-transition: $transition-time;
         "layout",
         "nav",
         "landing",
+        "company",
+        "strategy",
         "technology",
+        "founder",
         "syntax-highlighting"
 ;

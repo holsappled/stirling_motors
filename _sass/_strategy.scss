@@ -1,0 +1,44 @@
+$timeline-diameter: 1.5rem;
+
+.home__section--strategy {
+  background: $brand-green;
+  color: $white;
+  padding: 5rem 5%;
+}
+
+.strategy__timeline {
+  position: relative;
+  margin-left: 5%;
+  width: 95%;
+
+  .timeline__item {
+    margin-bottom: 5rem;
+    padding-left: 10%;
+    position: relative;
+
+    &::after {
+      background: $white;
+      border-radius: $timeline-diameter;
+      content: '';
+      height: $timeline-diameter;
+      left: $timeline-diameter / -2.1; 
+      position: absolute;
+      top: -.1rem;
+      width: $timeline-diameter;
+    }
+  }
+
+  &::after {
+    background: $white;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute; 
+    top: .1rem;
+    width: .2rem;
+  }
+
+  @media screen and (min-width: $tablet) {
+
+  }
+}

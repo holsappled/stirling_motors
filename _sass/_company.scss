@@ -1,0 +1,45 @@
+.home__section--company {
+  background: $white;
+  padding: 5rem 5%;
+
+  h2 {
+    text-align: center;
+  }
+
+  @media screen and (min-width: $tablet) {
+    @include clearfix();
+    padding: 10rem 5%;
+
+    h2 {
+      line-height: .75em;
+      text-align: left;
+    }
+  }
+}
+
+.company__container--description {
+  margin-bottom: 5rem;
+
+  @media screen and (min-width: $mobile) and (max-width: $tablet) {
+    margin: 0 auto;
+    margin-bottom: 5em;
+    width: 60%;
+  }
+
+  @media screen and (min-width: $tablet) {
+    float: left;
+    width: 47.5%;
+  }
+}
+
+.company__container--video {
+  @media screen and (min-width: $tablet) {
+    float: right;
+    margin-left: 5%;
+    width: 47.5%;
+
+    iframe {
+      width: 100%;
+    }
+  }
+}

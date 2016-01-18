@@ -1,17 +1,21 @@
 <svg class="engineDiagram" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <g>
+  <g id="wheel">
+   <title>wheel</title>
+   <path fill="#7f7f7f" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m533.61401,20.17544c64.99976,-7.99996 55.66681,153.33321 2.66656,140.66656" id="svg_41"/>
+   <ellipse stroke="#000000" ry="70" rx="29" id="svg_6" cy="90.17544" cx="531.61404" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#bfbfbf"/>
+  </g>
   <rect class="machine_background" stroke="#b2b2b2" id="svg_51" height="85.08772" width="12.28071" y="120.43859" x="474.03508" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#b2b2b2"/>
   <rect class="machine_background" stroke="#b2b2b2" id="svg_2" height="176" width="375" y="209.92982" x="108.07017" stroke-width="5" fill="#b2b2b2"/>
   <line stroke="#000000" id="crankshaft" y2="91.5614" x2="532.15789" y1="91.5614" x1="100.54386" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
-  <rect class="crank_gap" stroke="none" id="crank_gap_left" x="291" y="88" height="7" width="15" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#fff"/>
-  <rect class="crank_gap" stroke="none" id="crank_gap_right" x="441" y="88" height="7" width="15" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#fff"/>
+  <rect class="crank_gap" stroke="none" id="crank_gap_left" x="291" y="88" height="7" width="15" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#27ae60"/>
+  <rect class="crank_gap" stroke="none" id="crank_gap_right" x="441" y="88" height="7" width="15" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#27ae60"/>
   <g id="displacer_crank_group">
     <rect class="displacer_crank_arm" stroke="none" id="displacer_arm_left" x="286" y="89" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#000"/>
     <rect class="displacer_crank_middle" stroke="#000000" id="displacer_crank_middle" x="286.5" y="89.5" height="5" width="24" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#000"/>
     <rect class="displacer_crank_arm" stroke="none" id="displacer_arm_right" x="306" y="89" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#000"/>
   </g>
-
   <line stroke="#000000" id="svg_27" y2="391.05262" x2="103.36845" y1="206.84209" x1="103.49125" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
   <line stroke="#000000" id="svg_28" y2="390.05262" x2="101.61404" y1="390.05262" x1="483.31583" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
   <line id="svg_29" y2="392.80701" x2="486.31583" y1="205.0877" x1="486.31583" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
@@ -36,14 +40,9 @@
 
   <rect id="displacer_piston" height="64" width="347" y="265.40352" x="120.80701" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#e5e5e5"/>
    <rect stroke="#000000" id="power_piston" height="24.5614" width="53.50877" y="180.52629" x="420.52635" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#00ff7f"/>
-  <g id="wheel">
-   <title>wheel</title>
-   <path fill="#7f7f7f" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m533.61401,20.17544c64.99976,-7.99996 55.66681,153.33321 2.66656,140.66656" id="svg_41"/>
-   <ellipse stroke="#000000" ry="70" rx="29" id="svg_6" cy="90.17544" cx="531.61404" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#bfbfbf"/>
-  </g>
-  <g id="water">
+    <g id="water">
    <title transform="translate(-2,2) ">water</title>
-   <rect fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="103" y="122" width="99" height="27" id="svg_14" stroke="#000000"/>
+   <rect fill="#fff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="103" y="122" width="99" height="27" id="svg_14" stroke="#000000"/>
    <ellipse fill="#007fff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="199.5" cy="135.5" id="svg_15" rx="10.5" ry="13.5" stroke="#000000"/>
    <path d="m225.20605,145.73453c-13.26645,0.53004 -1.4355,-19.83006 -1.51631,-19.08221c-0.08081,0.74785 11.13969,18.76994 0.07281,19.2589" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" transform="rotate(-45 223.77702331542966,136.1884460449219) " stroke="#007fff" id="svg_46"/>
    <path d="m243.89502,169.93213c-13.26648,0.53006 -1.43549,-19.83006 -1.51633,-19.0822c-0.08081,0.74785 11.13968,18.76993 0.07285,19.2589" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007fff" transform="rotate(-35 242.46597290039065,160.38606262207034) " stroke="#007fff" id="svg_40"/>
