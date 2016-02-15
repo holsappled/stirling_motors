@@ -35,7 +35,7 @@ $(function() {
   var scrollEffects = (function() {
 
     var navContainer = $('.nav__container');
-    var targetElement = $('#technology');
+    var targetElement = $('#company');
 
     var scrollHandler = function(evt) {
       var current = $(this).scrollTop();

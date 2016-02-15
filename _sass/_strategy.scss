@@ -1,14 +1,15 @@
-$timeline-diameter: 1.5rem;
+$timeline-diameter: 1rem;
 
 .home__section--strategy {
-  background: $brand-green;
-  color: $white;
+  background: $white;
   padding: 5rem 5%;
+  position: relative;
 }
 
 .strategy__timeline {
   position: relative;
   margin-left: 5%;
+  margin-top: 5rem;
   width: 95%;
 
   .timeline__item {
@@ -16,22 +17,27 @@ $timeline-diameter: 1.5rem;
     padding-left: 10%;
     position: relative;
 
+    &:first-child {
+      &::after {
+        top: -.1rem;
+      }
+    }
+
     &::after {
-      background: $white;
+      background: $brand-green;
       border-radius: $timeline-diameter;
       content: '';
       height: $timeline-diameter;
-      left: $timeline-diameter / -2.1; 
       position: absolute;
-      top: -.1rem;
+      left: $timeline-diameter * -.375; 
       width: $timeline-diameter;
     }
   }
 
   &::after {
-    background: $white;
+    background: $brand-green;
     content: '';
-    height: 100%;
+    height: 98%;
     left: 0;
     position: absolute; 
     top: .1rem;
@@ -40,5 +46,35 @@ $timeline-diameter: 1.5rem;
 
   @media screen and (min-width: $tablet) {
 
+    .timeline__item {
+      margin-bottom: 5rem;
+      padding: 0 5%;
+      position: relative;
+      text-align: right;
+      width: 50%;
+
+      &::after {
+        left: calc(100% - .37rem);
+      }
+
+      &:nth-child(even) {
+        left: 50%;
+        text-align: left;
+
+        &::after {
+          left: $timeline-diameter * -.40; 
+        }
+      }
+    }
+
+    &::after {
+      background: $brand-green;
+      content: '';
+      height: 98%;
+      left: 50%;
+      position: absolute; 
+      top: .1rem;
+      width: .2rem;
+    }
   }
 }

@@ -26,6 +26,8 @@ $small-font:       .667rem;
 $spacing-unit:     30px;
 
 $brand-green: #27ae60;
+$brand-accent: #27ae60;
+$brand-dark: #333;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -33,7 +35,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      $brand-green;
-$white: #eee;
+$white: #fff;
 
 // break points
 $mobile: 667px;
@@ -50,8 +52,11 @@ $header-transition: $transition-time;
         "nav",
         "landing",
         "company",
-        "strategy",
         "technology",
+        "strategy",
+        "funding",
+        "invest",
         "founder",
+        "footer",
         "syntax-highlighting"
 ;

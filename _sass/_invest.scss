@@ -1,0 +1,57 @@
+.home__section--invest {
+  background: $brand-accent;
+  color: $white;
+  padding: 5rem 5%;
+  position: relative;
+  z-index: 100;
+  
+  form,
+  h2,
+  h3,
+  p {
+    position: relative;
+    z-index: 300;
+  }
+
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 30%;
+  }
+
+  label {
+  }
+
+  input,
+  textarea {
+    background: transparent;
+    border: 0;
+    color: $white;
+    width: 100%;
+  }
+
+  textarea {
+    min-height: 10rem;
+  }
+
+  .form__field {
+    border: 2px solid $white;
+    padding: .5rem;
+    margin-bottom: 1rem;
+  }
+
+  &:after {
+    background: darken($brand-green, 15%);
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    opacity: .75;
+    top: 0;
+    width: 100%;
+  }
+}

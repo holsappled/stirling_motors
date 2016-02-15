@@ -6,15 +6,19 @@
    <path fill="#7f7f7f" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m533.61401,20.17544c64.99976,-7.99996 55.66681,153.33321 2.66656,140.66656" id="svg_41"/>
    <ellipse stroke="#000000" ry="70" rx="29" id="svg_6" cy="90.17544" cx="531.61404" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#bfbfbf"/>
   </g>
+   <rect stroke="#000000" id="hot_air" height="120" width="364.03509" y="260" x="112.6316" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff5656"/>
+   <line id="cold_air" y1="216.49121" y2="216.49121" x1="112.63161" x2="477" stroke-opacity="1" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="230" stroke="#56aaff"/>
+   <rect stroke="#fff" id="background" height="206" width="640" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#27ae60"/>
   <rect class="machine_background" stroke="#b2b2b2" id="svg_51" height="85.08772" width="12.28071" y="120.43859" x="474.03508" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#b2b2b2"/>
-  <rect class="machine_background" stroke="#b2b2b2" id="svg_2" height="176" width="375" y="209.92982" x="108.07017" stroke-width="5" fill="#b2b2b2"/>
+  <rect class="machine_background" stroke="#b2b2b2" id="svg_2" height="176" width="375" y="209.92982" x="108.07017" stroke-width="12" fill="none"/>
   <line stroke="#000000" id="crankshaft" y2="91.5614" x2="532.15789" y1="91.5614" x1="100.54386" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
   <rect class="crank_gap" stroke="none" id="crank_gap_left" x="291" y="88" height="7" width="15" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#27ae60"/>
   <rect class="crank_gap" stroke="none" id="crank_gap_right" x="441" y="88" height="7" width="15" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#27ae60"/>
   <g id="displacer_crank_group">
-    <rect class="displacer_crank_arm" stroke="none" id="displacer_arm_left" x="286" y="89" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#000"/>
+    <line class="displacer_crank_arm" stroke="#000" id="displacer_arm_left" x1="286" x2="291" y1="42" y2="42" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="100"/>
+    <line class="displacer_crank_arm" stroke="#000" id="displacer_arm_left" x1="306" x2="311" y1="42" y2="42" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="100"/>
+    <line stroke="#27ae60" id="displacer_arm_cover" x1="285" x2="312" y1="0" y2="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="100"/>
     <rect class="displacer_crank_middle" stroke="#000000" id="displacer_crank_middle" x="286.5" y="89.5" height="5" width="24" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#000"/>
-    <rect class="displacer_crank_arm" stroke="none" id="displacer_arm_right" x="306" y="89" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#000"/>
   </g>
   <line stroke="#000000" id="svg_27" y2="391.05262" x2="103.36845" y1="206.84209" x1="103.49125" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
   <line stroke="#000000" id="svg_28" y2="390.05262" x2="101.61404" y1="390.05262" x1="483.31583" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
@@ -28,13 +32,12 @@
   <line stroke="#000000" id="svg_60" y2="114.73682" x2="423.15793" y1="114.73682" x1="404.73688" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
   <line stroke="#000000" id="svg_61" y2="112.10524" x2="407.36846" y1="207.71928" x1="407.36846" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
   <g id="power_crank_group">
-    <rect class="crank_arm" stroke="none" id="crank_arm_left" x="436" y="89" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#000"/>
+    <line class="crank_arm" stroke="#000" id="crank_arm_left" x1="436" x2="441" y1="69" y2="69" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="50" fill="#000"/>
     <rect class="crank_middle" stroke="#000000" id="power_crank_arm_middle" x="436.5" y="129.5" height="5" width="24" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#000"/>
-    <rect class="crank_arm" stroke="none" id="crank_arm_right" x="456" y="89" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1" fill="#000"/>
+    <line class="crank_arm" stroke="#000" id="crank_arm_right" x1="456" x2="461" y1="69" y2="69" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="50" fill="#000"/>
+    <rect id="power_piston_shaft" y="129" x="446.5" height="150" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="none" fill="#000"/>
+    <line stroke="#27ae60" id="power_arm_cover" x1="435" x2="465" y1="0" y2="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="100"/>
   </g>
-  <rect id="power_piston_shaft" y="129" x="446.5" height="200" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="none" fill="#000"/>
-  <rect stroke="#000000" id="hot_air" height="120" width="364.03509" y="260" x="112.6316" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff5656"/>
-  <rect stroke="#000000" id="cold_air" width="364.03509" y="216.49121" x="112.63161" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#56aaff"/>
  <rect stroke="#000000" id="power_piston_air" height="80" width="49" y="204" x="423.15793" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#56aaff"/>
   <rect id="displacer_piston_shaft" y="95" x="296" height="200" width="5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="none" fill="#000"/>
 
