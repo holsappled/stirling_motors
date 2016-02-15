@@ -1,6 +1,6 @@
 .landing {
   align-items: center;
-  background: url('/assets/bw/motor.jpg') no-repeat center center, #222;
+  background: url('{{ site.baseurl }}/assets/bw/motor.jpg') no-repeat center center, #222;
   background-size: cover;
   color: #eee;
   display: flex;
