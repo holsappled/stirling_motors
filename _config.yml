@@ -7,14 +7,15 @@
 
 # Site settings
 title: Stirling Motors Corporation
-email: derek.holsapple@stirlingmotorscorp.com
+email1: derek.holsapple@stirlingmotorscorp.com
+email2: alan@stirlingmotorscorp.com
 description: > # this means to ignore newlines until "baseurl:"
   Stirling Motors Corporation is a startup company that designs, builds,
   and sells Stirling Engines for use in Liquid Pumping, HVAC,
   Refrigeration, and Electric Generator applications.
-baseurl: "/stirling_motors" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://stirlingmotorscorp.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-
+twitter_username: stirlingmotorc
+linkedin_username: company/stirling-motors-corporation
 # Build settings
 markdown: kramdown
