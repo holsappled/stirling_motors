@@ -1,0 +1,39 @@
+.home__section--funding {
+  background: #333;
+  color: $white;
+  padding: 5rem 5% 6rem;
+
+  table {
+    background: $brand-green;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  thead {
+
+    th {
+      font-size: 1.5em;
+      text-align: left;
+    }
+  }
+
+  tbody {
+
+    tr:nth-child(odd) {
+      background: darken($brand-green, 10%);
+    }
+  }
+
+  .funding__total {
+    padding-right: 5%;
+    text-align: right;
+  }
+
+  @media screen and (min-width: $tablet) {
+
+    table {
+      width: 60%;
+    }
+  }
+}
