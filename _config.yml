@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and sells Stirling Engines for use in Liquid Pumping, HVAC,
   Refrigeration, and Electric Generator applications.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://stirlingmotorscorp.com" # the base hostname & protocol for your site
+url: "/stirlingmotorscorp" # the base hostname & protocol for your site
 twitter_username: stirlingmotorc
 linkedin_username: company/stirling-motors-corporation
 # Build settings
